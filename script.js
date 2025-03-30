@@ -59,7 +59,10 @@ const words = [
     { word: 'Renato', missingSyllable: 'Re', incomplete: '__nato' },
     { word: 'Boneca', missingSyllable: 'Bo', incomplete: '__neca' },
     { word: 'Urso', missingSyllable: 'Ur', incomplete: '__so' },
-    { word: 'Robô', missingSyllable: 'Ro', incomplete: '__bô' }
+    { word: 'Robô', missingSyllable: 'Ro', incomplete: '__bô' },
+    { word: 'Bolacha', missingSyllable: 'la', incomplete: 'Bo__cha' },
+    { word: 'Rocha', missingSyllable: 'Ro', incomplete: '__cha' }
+
 ];
 
 // Randon
