@@ -31,6 +31,18 @@ body {
     width: 300px;
 }
 
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+        background-position: top;
+    }
+
+    #game-container {
+        width: 220px;
+        padding: 10px;
+    }
+}
+
 button {
     padding: 10px 15px;
     border: none;
