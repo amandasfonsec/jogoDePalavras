@@ -11,7 +11,7 @@ const erroSom = document.getElementById('erro-som');
 // Lista de palavras
 const words = [
     { word: 'Casa', missingSyllable: 'Ca', incomplete: '__sa' },
-    { word: 'Cachorro', missingSyllable: 'rro', incomplete: 'Caho__' },
+    { word: 'Cachorro', missingSyllable: 'rro', incomplete: 'Cacho__' },
     { word: 'Caderno', missingSyllable: 'Ca', incomplete: '__derno' },
     { word: 'Caminho', missingSyllable: 'Ca', incomplete: '__minho' },
     { word: 'Gato', missingSyllable: 'Ga', incomplete: '__to' },
