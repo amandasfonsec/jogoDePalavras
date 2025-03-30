@@ -4,7 +4,6 @@ const userInput = document.getElementById('user-input');
 const feedback = document.getElementById('feedback');
 const incompleteWordElement = document.getElementById('incomplete-word');
 const feedbackImage = document.getElementById('feedback-image'); 
-
 const acertoSom = document.getElementById('acerto-som');
 const erroSom = document.getElementById('erro-som');
 

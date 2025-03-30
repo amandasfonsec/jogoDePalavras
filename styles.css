@@ -34,7 +34,7 @@ body {
 button {
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #e9ec31;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -71,3 +71,8 @@ input {
     font-size: 20px;
 }
 
+#play-word{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
