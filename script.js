@@ -55,7 +55,7 @@ const words = [
     { word: 'Castelo', missingSyllable: 'Cas', incomplete: '__telo' },
     { word: 'Amarelinha', missingSyllable: 'Ama', incomplete: '__relinha' },
     { word: 'Patinete', missingSyllable: 'Pa', incomplete: '__tinete' },
-    { word: 'Bicicleta', missingSyllable: 'Bi', incomplete: '__cicleta' },
+    { word: 'Bicicleta', missingSyllable: 'cle', incomplete: 'Bici__ta' },
     { word: 'Renato', missingSyllable: 'Re', incomplete: '__nato' },
     { word: 'Boneca', missingSyllable: 'Bo', incomplete: '__neca' },
     { word: 'Urso', missingSyllable: 'Ur', incomplete: '__so' },
