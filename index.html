@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerte a palavra</title>
+    <link rel="icon" href="./assets/icone.jpg">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a href="https://fontmeme.com/pt/fonte-de-pokemon/"><img src="https://fontmeme.com/permalink/250330/36c316ba203c4ebb05b3e62d9bc583fb.png" alt="fonte-de-pokemon" border="0"></a>
+    <div id="game-container">
+        <button id="play-word">Ouvir Palavra</button>
+        <div class="word"><p id="incomplete-word"></p></div>
+        <input type="text" id="user-input" placeholder="Complete a sílaba...">
+        <button id="check-word">Verificar</button>
+        <p id="feedback"></p>
+        
+        <img id="feedback-image" style="display:block; margin-top: 20px; width: 300px;" />
+    </div>
+
+    <audio id="acerto-som" src="assets/certo.mp3"></audio>
+    <audio id="erro-som" src="assets/errado.mp3"></audio>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
